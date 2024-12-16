@@ -3,7 +3,7 @@
 function binarySearch(array $list, $search): ?int
 {
 	$low = 0;
-	$high = count($list) - 1; // list boundaries
+	$high = count($list) - 1; // low and high is the list boundary in which the search occurs
 
 	while ($low <= $high) {
 		$mid = ($low + $high) / 2;
